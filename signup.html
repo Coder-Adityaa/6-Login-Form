@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- BOOTSTRAP CDN LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="signup-wrapper">
+        <div class="container">
+            <div class="col-sm-8 col-lg-6 col-xl-4 offset-sm-2 offset-lg-3 offset-xl-4 text-center">
+                <div class="logo">
+                    <img src="/images/logo.png" alt="logo" class="img-fluid">
+                </div>
+                <form class="rounded bg-white shadow p-5">
+                    <h3 class="text-dark fw-bolder fs-4 mb-2">
+                        Creat an Account
+                    </h3>
+                    <div class="fw-normal text-muted mb-3">
+                        Already have an Account? <a href="login.html"
+                            class="text-primary fw-bold text-decoration-none">
+                            Sign in here
+                        </a>
+                    </div>
+                    <div class="text-center text-muted text-uppercase mb-2">or</div>
+                    <a href="#" class="btn btn-light signup-with w-100 mb-4">
+                        <img src="/images/google-icon.svg" alt="" class="img-fluid me-3">Signin with Google
+                    </a>
+
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingfirstname" placeholder="name@example.com">
+                        <label for="floatingfirstname">First Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatinglastname" placeholder="name@example.com">
+                        <label for="floatinglastname">Last Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingemail" placeholder="name@example.com">
+                        <label for="floatingemail">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                        <span class="password-info mt-2">
+                            Use 8 or more characters with a mix of letters, numbers & symbols.
+                        </span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingconfirmPassword">Confirm Password</label>
+                    </div>
+                    <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input mb-1" type="checkbox" id="gridCheck" checked>
+                        <label class="form-check-label ms-2" for="gridCheck">
+                            I Agree <a href="#">Terms & Conditions</a>.
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary sumbit-btn my-4"><a href="otp.html" class="text-white text-decoration-none">Submit</a></button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

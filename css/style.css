@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --primari-font: 'Poppins', sans-serif;
+    --light-white: #f5f8fa;
+    --gray: #5e6278;
+    --gray-1: #e3e3e3;
+}
+
+body {
+    font-family: var(--primari-font);
+    font-size: 14px;
+}
+
+/* LOGIN DESIGN */
+.login-wrapper {
+    padding: 0 0 100px;
+    background: url(/images/bg.png) no-repeat bottom center;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+.login-wrapper .logo img {
+    max-width: 40%;
+}
+
+.login-wrapper input {
+    background-color: var(--light-white);
+    border-color: var(--light-white);
+    color: var(--gray);
+}
+
+.login-wrapper input:focus {
+    box-shadow: none;
+}
+
+.login-wrapper .sumbit-btn {
+    padding: 15px;
+    font-weight: 500;
+}
+
+.login-wrapper .login-with {
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.login-wrapper .sumbit-btn:focus,
+.login-wrapper .login-with:focus {
+    box-shadow: none;
+}
+
+.login-wrapper .login-with:hover {
+    background-color: var(--gray-1);
+    border-color: var(--gray-1);
+}
+
+.login-wrapper .login-with img {
+    max-width: 8%;
+}
+
+/* SIGNUP DESIGN */
+.signup-wrapper {
+    padding: 0 0 100px;
+    background: url(/images/bg.png) no-repeat bottom center;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+.signup-wrapper .logo img {
+    max-width: 40%;
+}
+
+.signup-wrapper input {
+    background-color: var(--light-white);
+    border-color: var(--light-white);
+    color: var(--gray);
+}
+
+.signup-wrapper input:focus {
+    box-shadow: none;
+}
+
+.signup-wrapper .password-info {
+    font-size: 10px;
+}
+
+.signup-wrapper .sumbit-btn {
+    padding: 15px;
+    font-weight: 500;
+}
+
+.signup-wrapper .signup-with {
+    padding: 8px 15px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.signup-wrapper .signup-btn:focus,
+.signup-wrapper .signup-with:focus {
+    box-shadow: none;
+}
+
+.signup-wrapper .signup-with:hover {
+    background-color: var(--gray-1);
+    border-color: var(--gray-1);
+}
+
+.signup-wrapper .signup-with img {
+    max-width: 7%;
+}
+
+/* FORGET WRAPPER */
+
+.forget-wrapper {
+    padding: 0 0 100px;
+    background: url(/images/bg.png) no-repeat bottom center;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forget-wrapper .logo img {
+    max-width: 40%;
+}
+
+.forget-wrapper input {
+    background-color: var(--light-white);
+    border-color: var(--light-white);
+    color: var(--gray);
+}
+
+
+.forget-wrapper .sumbit-btn {
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.forget-wrapper input:focus {
+    box-shadow: none;
+}
+
+.forget-wrapper .password-info {
+    font-size: 10px;
+}
+
+
+/* OTP DESIGN */
+
+.otp-wrapper {
+    padding: 0 0 100px;
+    background: url(/images/bg.png) no-repeat bottom center;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100%;
+}    
+
+.otp-wrapper .logo img {
+    max-width: 40%;
+}
+
+.otp-wrapper input {
+    background-color: var(--light-white);
+    border-color: var(--light-white);
+    color: var(--gray);
+}
+
+
+.otp-wrapper .sumbit-btn {
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.otp-wrapper input:focus {
+    box-shadow: none;
+}
+
+.otp-wrapper .otp-input input {
+    width: 14%;
+    height: 70px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    .otp-wrapper .otp-input input {
+        height: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .otp-wrapper .otp-input input {
+        height: 40px;
+    }
+}
